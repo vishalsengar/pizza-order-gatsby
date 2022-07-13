@@ -1,6 +1,25 @@
 node_modules
-.cache
+**/node_modules/**
+.env
 .env.*
-public
-.vscode
+!.env.example
+.npm
+.npmrc
 
+.cache
+**/.cache
+public
+
+.vscode
+.DS_Store
+
+# Optional eslint cache
+.eslintcache
+
+# Compiled binary addons (http://nodejs.org/api/addons.html)
+build/Release
+
+# Logs
+logs
+*.log
+npm-debug.log*
